@@ -1,0 +1,11 @@
+Frameworks HTML/CSS
+
+Um framework (ou biblioteca), em desenvolvimento de software, é uma abstração que une códigos comuns entre vários projetos de software provendo uma funcionalidade genérica.
+
+tabela comparativa dos frameworks HTML/CSS mais usados:
+
+http://usablica.github.io/front-end-frameworks/compare.html
+
+Bootstrap
+
+http://getbootstrap.com/

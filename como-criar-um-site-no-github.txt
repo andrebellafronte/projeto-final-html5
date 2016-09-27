@@ -1,0 +1,5 @@
+Hospedando um site no GitHub
+
+1 - Criar o projeto (repositório) através do site do Github;
+2 - Após criado o projeto, clicar em "Settings" do projeto;
+3 - Acessar o github Windows (desktop) e clonar o  projeto;
