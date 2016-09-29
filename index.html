@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto:400,700|Ubuntu:400,700" rel="stylesheet">
-    <!-- deve-se chamar sua folha de estilo personalizada por último. 
+    <!-- deve-se chamar sua folha de estilo personalizada por último.
     A ordem das CSS alterarão o resultado.  Para que você possa sobrepor
     classes do bootstrap, sua CSS deve ser carregada por último. -->
     <link rel="stylesheet" href="css/master.css" media="screen" title="no title">
@@ -54,6 +54,57 @@
       </div>
     </nav>
     <!-- menu principal de navegação -->
+
+
+    <!-- Slider de Imagens - Banners rotativos - Carousel -->
+    <div id="banner" class="carousel slide" data-ride="carousel">
+      <!-- indicadores esféricos na parte inferior -->
+      <ol class="carousel-indicators">
+        <li data-target="#banner" data-slide-to="0" class="active"></li>
+        <li data-target="#banner" data-slide-to="1"></li>
+        <li data-target="#banner" data-slide-to="2"></li>
+      </ol>
+
+      <!-- conteúdo do banner (imagens) -->
+      <div class="carousel-inner">
+        <!-- cada imagem neste conjunto de divs -->
+        <div class="item active">
+          <img src="imagens/imagem-1.jpg" alt="" height="565">
+          <div class="carousel-caption">
+            <h1>Conheça nossas Soluções em TI</h1>
+            <h2>Subtitulo</h2>
+
+          </div>
+        </div>
+        <!-- cada imagem neste conjunto de divs -->
+        <!-- cada imagem neste conjunto de divs -->
+        <!-- <div class="item">
+          <img src="imagens/imagem-2.jpg" alt="" height="565">
+          <div class="carousel-caption">
+
+          </div>
+        </div> -->
+        <!-- cada imagem neste conjunto de divs -->
+        <!-- cada imagem neste conjunto de divs -->
+        <!-- <div class="item">
+          <img src="imagens/imagem-3.jpg" alt="" height="565">
+          <div class="carousel-caption">
+
+          </div>
+        </div> -->
+        <!-- cada imagem neste conjunto de divs -->
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#banner" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#banner" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    <!-- Slider de Imagens - Banners rotativos - Carousel -->
 
 
 
